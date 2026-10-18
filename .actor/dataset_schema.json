@@ -1,0 +1,34 @@
+{
+  "actorSpecification": 1,
+  "title": "Current company and headline",
+  "description": "One row per profile URL. Compare currentCompany and headline to your CRM. This dataset does not include a match decision.",
+  "fields": {
+    "type": "object",
+    "properties": {
+      "inputUrl": { "type": "string", "title": "LinkedIn URL" },
+      "fullName": { "type": ["string", "null"], "title": "Full name" },
+      "currentCompany": { "type": ["string", "null"], "title": "Current company" },
+      "headline": { "type": ["string", "null"], "title": "Headline" },
+      "linkedinNumId": { "type": ["string", "null"], "title": "LinkedIn numeric ID" },
+      "success": { "type": "boolean", "title": "Success" },
+      "error": { "type": ["string", "null"], "title": "Error" },
+      "checkedAt": { "type": "string", "title": "Checked at" }
+    }
+  },
+  "views": {
+    "flat": {
+      "title": "Flat results",
+      "transformation": {
+        "fields": ["inputUrl", "fullName", "currentCompany", "headline", "linkedinNumId", "success", "error", "checkedAt"]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "inputUrl": { "label": "LinkedIn URL", "format": "link" },
+          "success": { "label": "Success", "format": "boolean" },
+          "checkedAt": { "label": "Checked at", "format": "date" }
+        }
+      }
+    }
+  }
+}

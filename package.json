@@ -1,0 +1,23 @@
+{
+  "name": "mawsool-linkedin-profile-freshness",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Current company and headline from a LinkedIn profile URL. The buyer compares them to their own CRM.",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "apify": "^3.7.0"
+  },
+  "devDependencies": {
+    "@apify/tsconfig": "^0.1.1",
+    "@types/node": "^24.0.0",
+    "typescript": "^6.0.0"
+  },
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc"
+  },
+  "author": "Mawsool",
+  "license": "UNLICENSED"
+}

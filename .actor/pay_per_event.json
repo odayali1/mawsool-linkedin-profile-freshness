@@ -1,0 +1,18 @@
+{
+  "actorSpecification": 1,
+  "events": {
+    "profile-freshness": {
+      "title": "Current company and headline",
+      "description": "One LinkedIn profile URL. Returns the current company and headline. You compare them to your CRM. The Actor does not decide if they match.",
+      "isPrimaryEvent": true,
+      "eventTieredPricingUsd": {
+        "FREE": { "tieredEventPriceUsd": 0.0006 },
+        "BRONZE": { "tieredEventPriceUsd": 0.00055 },
+        "SILVER": { "tieredEventPriceUsd": 0.0005 },
+        "GOLD": { "tieredEventPriceUsd": 0.0004 },
+        "PLATINUM": { "tieredEventPriceUsd": 0.00035 },
+        "DIAMOND": { "tieredEventPriceUsd": 0.0003 }
+      }
+    }
+  }
+}

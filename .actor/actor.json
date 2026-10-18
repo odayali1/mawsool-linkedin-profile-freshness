@@ -1,0 +1,34 @@
+{
+  "$schema": "https://apify.com/schemas/v1/actor.ide.json",
+  "actorSpecification": 1,
+  "name": "mawsool-linkedin-profile-freshness",
+  "title": "LinkedIn Profile Scraper Alternative | Current Company",
+  "description": "Before you pay for a LinkedIn profile scraper, get the current company and headline from profile URLs you already have. Starting from $0.30 per 1,000. Compare those fields to your CRM yourself. This Actor does not decide if they match. No LinkedIn login and no cookies.",
+  "seoTitle": "Cheaper LinkedIn Profile Scraper, Company and Headline",
+  "seoDescription": "Before a full LinkedIn profile scraper, get the current company and headline. You compare them to your CRM. Starting from $0.30 per 1,000. No cookies.",
+  "categories": ["LEAD_GENERATION", "SOCIAL_MEDIA", "AUTOMATION"],
+  "version": "1.0",
+  "buildTag": "latest",
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 2048,
+  "defaultRunOptions": {
+    "build": "latest",
+    "timeoutSecs": 86400,
+    "memoryMbytes": 512
+  },
+  "environmentVariables": {
+    "GUEST_API_BASE_URL": "https://guest.mawsool.tech",
+    "GUEST_API_KEY": "@mawsoolGuestApiKey"
+  },
+  "meta": {
+    "templateId": "ts-empty",
+    "generatedBy": "Cursor Agent"
+  },
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "pricing": "./pay_per_event.json",
+  "dockerfile": "../Dockerfile"
+}
