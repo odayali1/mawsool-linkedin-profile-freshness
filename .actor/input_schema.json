@@ -2,7 +2,7 @@
   "title": "LinkedIn profile URLs",
   "type": "object",
   "schemaVersion": 1,
-  "description": "Get the current company and headline from LinkedIn profile URLs. Starting from $0.30 per 1,000. Compare the result to your CRM yourself.",
+  "description": "Get the current company and headline from LinkedIn profile URLs. Starting from $0.40 per 1,000. Compare the result to your CRM yourself.",
   "properties": {
     "urls": {
       "title": "LinkedIn profile URLs",

@@ -1,6 +1,6 @@
 # LinkedIn Profile Scraper Alternative | Current Company
 
-**Before you pay for a LinkedIn profile scraper, get the current company and headline. Starting from $0.30 per 1,000 profiles.**
+**Before you pay for a LinkedIn profile scraper, get the current company and headline. Starting from $0.40 per 1,000 profiles.**
 
 You already have the profile URLs. This Actor returns the current company and the headline. You compare those two fields to the company and headline in your CRM, Clay table, or spreadsheet. If they differ, run [LinkedIn Profile Scraper](https://apify.com/oday/mawsool-linkedin-profile-details) on those rows only.
 
@@ -10,7 +10,7 @@ No LinkedIn login. No cookies. You supply the URL.
 
 ## What 10,000 profiles cost
 
-At Diamond prices, a full profile scrape of 10,000 URLs is $8. This check is $3. If 1,500 profiles then need the full scrape at $0.80 per 1,000, the refresh is $4.20 instead of $8. The free plan is $0.60 per 1,000 for this check and $1.80 per 1,000 for the full profile.
+10,000 checks cost $4. The free plan is $0.60 per 1,000. Run the full profile scraper only on the rows you choose.
 
 ## If you need a different Mawsool Actor
 
@@ -59,10 +59,10 @@ One profile URL is one charge, whether or not the company is filled in.
 | Bronze | $0.55 |
 | Silver | $0.50 |
 | Gold | $0.40 |
-| Platinum | $0.35 |
-| Diamond | $0.30 |
+| Platinum | $0.40 |
+| Diamond | $0.40 |
 
-Starting from $0.30 per 1,000 on Diamond. The free plan is $0.60 per 1,000.
+Starting from $0.40 per 1,000. Gold, Platinum, and Diamond are the same price. The free plan is $0.60 per 1,000.
 
 ## Use with AI agents
 
@@ -74,7 +74,7 @@ Apify exposes this Actor to ChatGPT, Claude, Gemini, Grok, and other agents thro
 
 ### How do I avoid paying for a full LinkedIn profile scraper on every contact?
 
-Run this Actor on the URL list first. It returns the current company and headline, starting from $0.30 per 1,000. Compare those fields to your CRM, then scrape only the rows you want to refresh.
+Run this Actor on the URL list first. It returns the current company and headline, starting from $0.40 per 1,000. Compare those fields to your CRM, then scrape only the rows you want to refresh.
 
 ### Does this tell me whether the person changed jobs?
 
